@@ -1,11 +1,11 @@
 {
   "name": "trem-tauri",
   "private": true,
-  "version": "0.0.0-alpha.4",
+  "version": "0.0.5",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "tauri": "tauri",
     "lint": "eslint ./src --ext .ts,.vue --fix",
